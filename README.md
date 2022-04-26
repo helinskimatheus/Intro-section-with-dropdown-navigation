@@ -29,7 +29,7 @@
 </p>
 
 <h3><ul><li>Contato</li></ul></h3>
-<p><ul><li><a target="blank" href="https://www.linkedin.com/in/matheus-helinski-109047218/">Linkedin: Matheus Helinski</a></li></ul> <ul><li><a target="blank" href="https://mail.google.com">Email: helinskimatheus@gmail.com</a></li></ul></p>
+<p><ul><li><a target="_blank" href="https://www.linkedin.com/in/matheus-helinski-109047218/">Linkedin: Matheus Helinski</a></li></ul> <ul><li><a target="_blank" href="https://mail.google.com">Email: helinskimatheus@gmail.com</a></li></ul></p>
 
 <h3><ul><li>Autor</li></ul></h3>
-<p><ul><li><a target="blank" href="https://github.com/helinskimatheus">Matheus Helinski</a></li></ul></p>
+<p><ul><li><a target="_blank" href="https://github.com/helinskimatheus">Matheus Helinski</a></li></ul></p>
