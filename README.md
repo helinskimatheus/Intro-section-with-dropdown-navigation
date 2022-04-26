@@ -27,3 +27,9 @@
   <img src="https://user-images.githubusercontent.com/100943965/165315872-ca1f65c5-b596-4072-a66d-3bd872f4debc.png">
   <img src="https://user-images.githubusercontent.com/100943965/165314210-cae054d1-7d35-47e6-8924-8b22c782be08.png">
 </p>
+
+<h3><ul><li>Contato</li></ul></h3>
+<p><ul><li><a src="https://www.linkedin.com/in/matheus-helinski-109047218/">Linkedin: Matheus Helinski</a></li></ul> <ul><li><a src="https://mail.google.com">Email: helinskimatheus@gmail.com</a></li></ul></p>
+
+<h3><ul><li>Autor</li></ul></h3>
+<p><ul><li><a src="https://github.com/helinskimatheus">Matheus Helinski</a></li></ul></p>
