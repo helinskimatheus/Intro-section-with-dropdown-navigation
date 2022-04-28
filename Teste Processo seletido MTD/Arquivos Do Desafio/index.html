@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+  <title>Desafio mtd.</title>
+  <link rel="stylesheet" href="./style/styleBody.css">
+  <link rel="stylesheet" href="./style/styleHeader.css">
+  <link rel="stylesheet" href="./style/styleMain.css">
+  <link rel="stylesheet" href="./style/styleMenuDropdownDesktop.css">
+  <link rel="stylesheet" href="./style/styleMenuDropdownMobile.css">
+  <script src="./JavaScript/mobile.js"></script>
+  <script src="./JavaScript/desktop.js"></script>
+</head>
+
+<body>
+  <div class="backgroundMenuMobile"></div>
+  <div class="container-1">
+    <header>
+      <div class="mark">
+        <a href="./index.html">
+          <img src="./Assets/Images/logo.svg" alt="Logo do site">
+        </a>
+      </div>
+
+      <div class="mobile-menu-icon" onclick="showMenuMobile(), showBackgroundMenuMobile()" >
+        <button><img class="icon" src="./Assets/Icons/icon-menu.svg"></a></button>
+      </div>
+
+      <ul class="nav-bar">
+        <a href="#" class="nav-itens" id="features" onclick="showMenuDropdownFeatures()">
+          <ul class="features-menu">
+            <div class="features-icons">
+              <li>
+                <img src="./Assets/Icons/icon-todo.svg">
+              </li>
+              <li>
+                <img src="./Assets/Icons/icon-calendar.svg">
+              </li>
+              <li>
+                <img src="./Assets/Icons/icon-reminders.svg">
+              </li>
+              <li>
+                <img src="./Assets/Icons/icon-planning.svg">
+              </li>
+            </div>
+            <div class="features-itens">
+              <li>Todo list</li>
+              <li>Calendar</li>
+              <li>Reminders</li>
+              <li>Planning</li>
+            </div>
+          </ul>
+          <li>
+            Features
+            <img class="icon-features" src="./Assets/Icons/icon-arrow-down.svg">
+          </li>
+        </a>
+        <a href="#" class="nav-itens" id="company" onclick="showMenuDropdownCompany()">
+          <ul class="company-menu">
+            <div class="company-itens">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </div>
+          </ul>
+          <li>
+            Company
+            <img class="icon-company" src="./Assets/Icons/icon-arrow-down.svg">
+          </li>
+        </a>
+        <a href="#" class="nav-itens">
+          <li>
+            Careers
+          </li>
+        </a>
+        <a href="#" class="nav-itens">
+          <li>
+            About
+          </li>
+        </a>
+      </ul>
+
+      <ul class="nav-bar-mobile">
+        <div class="section-1-menu-mobile">
+          <a href="#" class="nav-itens" id="features-mobile" onclick="showMenuFeaturesMobile()">
+            <li>
+              Features <img class="icon-features-mobile" src="./Assets/Icons/icon-arrow-down.svg">
+            </li>
+            <ul class="features-menu-mobile">
+              <div class="features-icons-mobile">
+                <li>
+                  <img src="./Assets/Icons/icon-todo.svg">
+                </li>
+                <li>
+                  <img src="./Assets/Icons/icon-calendar.svg">
+                </li>
+                <li>
+                  <img src="./Assets/Icons/icon-reminders.svg">
+                </li>
+                <li>
+                  <img src="./Assets/Icons/icon-planning.svg">
+                </li>
+              </div>
+              <div class="features-itens-mobile">
+                <li>Todo list</li>
+                <li>Calendar</li>
+                <li>Reminders</li>
+                <li>Planning</li>
+              </div>
+            </ul>
+          </a>
+          <a href="#" class="nav-itens" id="company-mobile" onclick="showMenuCompanyMobile()">
+            <li>
+              Company <img class="icon-company-mobile" src="./Assets/Icons/icon-arrow-down.svg">
+            </li>
+            <ul class="company-menu-mobile">
+              <div class="company-itens-mobile">
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </div>
+            </ul>
+          </a>
+          <a href="#" class="nav-itens">
+            <li>
+              Careers
+            </li>
+          </a>
+          <a href="#" class="nav-itens">
+            <li>
+              About
+            </li>
+          </a>
+        </div>
+        <div class="section-2-menu-mobile">
+          <a href="#" class="link">
+            <li id="login-mobile">
+              Login
+            </li>
+          </a>
+          <a href="#" class="link">
+            <li id="register-mobile">
+              Register
+            </li>
+          </a>
+        </div>
+      </ul>
+
+      <ul class="other-links">
+        <a href="#" class="link">
+          <li id="login">
+            Login
+          </li>
+        </a>
+        <a href="#" class="link">
+          <li id="register">
+            Register
+          </li>
+        </a>
+      </ul>
+    </header>
+  </div>
+
+  <div class="container-2">
+    <main>
+      <div class="section-main-content-1">
+        <div id="title">
+          <h5>Make remote work</h5>
+        </div>
+        <div id="text">
+          <p>
+            Get your team in sync, no matter your location. Streamline processes, creat team rituals, and watch
+            productivity soar.
+          </p>
+        </div>
+        <div id="button-learn-more">
+          <a href="#" id="button-learn-more-1">
+            Learn more
+          </a>
+        </div>
+        <div id="marks-main-content">
+          <img src="./Assets/Images/client-databiz.svg" height="15" width="85.5">
+          <img src="./Assets/Images/client-audiophile.svg" height="27" width="54.75">
+          <img src="./Assets/Images/client-meet.svg" height="15" width="67.5">
+          <img src="./Assets/Images/client-maker.svg" height="18" width="62.25">
+        </div>
+      </div>
+
+      <div class="section-main-content-2">
+        <div>
+          <picture id="img-main-content-2">
+            <source media="(max-width: 979.2px)" srcset="./Assets/Images/image-hero-mobile.png" width="100%"
+              height="100%">
+            <img src="./Assets/Images/image-hero-desktop.png" width="369.6" height="492.8">
+          </picture>
+        </div>
+      </div>
+    </main>
+  </div>
+
+</body>
+
+</html>
