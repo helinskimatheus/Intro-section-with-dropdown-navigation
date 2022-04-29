@@ -1,6 +1,4 @@
-# Teste-Dev-Junior-Agência_MTD.
-
-<h2>Projeto: Desafio Frontend Mentor - Intro section with dropdown navigation.</h2>
+<h1>Projeto - Intro section with dropdown navigation.</h1>
 
 <h3><ul><li>Descrição</li></ul></h3>
 <p>
